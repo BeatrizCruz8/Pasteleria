@@ -41,15 +41,17 @@ public class Sistema extends javax.swing.JFrame {
 
         jButton1.setBackground(new java.awt.Color(0, 0, 0));
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Pasteles");
         getContentPane().add(jButton1);
-        jButton1.setBounds(100, 200, 300, 60);
+        jButton1.setBounds(100, 210, 300, 60);
 
         jButton2.setBackground(new java.awt.Color(0, 0, 0));
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("Ventas");
         getContentPane().add(jButton2);
-        jButton2.setBounds(100, 300, 300, 60);
+        jButton2.setBounds(100, 310, 300, 60);
 
         fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Diseño sin título (4).png"))); // NOI18N
         getContentPane().add(fondo);
