@@ -26,18 +26,34 @@ public class Sistema extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        jLabel2 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        fondo = new javax.swing.JLabel();
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 500, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 500, Short.MAX_VALUE)
-        );
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(null);
+
+        jLabel2.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Pastelería.jpg"))); // NOI18N
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(0, 30, 500, 80);
+
+        jButton1.setBackground(new java.awt.Color(0, 0, 0));
+        jButton1.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
+        jButton1.setText("Pasteles");
+        getContentPane().add(jButton1);
+        jButton1.setBounds(100, 200, 300, 60);
+
+        jButton2.setBackground(new java.awt.Color(0, 0, 0));
+        jButton2.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
+        jButton2.setText("Ventas");
+        getContentPane().add(jButton2);
+        jButton2.setBounds(100, 300, 300, 60);
+
+        fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Diseño sin título (4).png"))); // NOI18N
+        getContentPane().add(fondo);
+        fondo.setBounds(0, 0, 500, 500);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -78,5 +94,9 @@ public class Sistema extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel fondo;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables
 }
